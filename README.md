@@ -29,19 +29,19 @@ There are 4 main files:
 
 ## Data structures and their relations to each other
 ### HalifaxMap.java
-	* intersections - Map
+* intersections - Map
 The program store vertex and graph in adjacency list using Map implementation.
 Using vertex as key so that it's unique (no duplicate key) and easy to find information.
 The value contains the intersection information regarding to that vertex.
 Moreover, map is fast at add and retrieve value which is the thing that mainly do in this program.
 Choosing to use adjacency list because better space than other graph, in the cost of more time searching.
-	* allRoads - Set
+* allRoads - Set
 As all road is unique, the data is kept in set to make sure that no duplicate value.
 (The road should not build on top of each other in this program). 
 This will help to see if the new road is the same as existing road. 
 
 ### Intersection.java
-	* connectedRoad - Set
+* connectedRoad - Set
 As all road is unique, the data is kept in set to make sure that no duplicate value.
 This represent the road that connected to the vertex(key) in HalifaxMap class.
  
