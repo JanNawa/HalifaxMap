@@ -11,19 +11,19 @@ This is implemented by using Dijkstra's algorithm to find the shortest path in g
 
 ## Files and External Data
 There are 4 main files:
-* Vertex.java 
+* **Vertex.java** - 
 	class that define vertex in (x, y)
 	design as immutable object so after created, the data can't be changed. (only have getter, no setter)
-* Road.java 
+* **Road.java** - 
 	class that define road with main attributes
 		* source (in vertex)
 		* destination (in vertex)
 		* length (length from source to destination)
 	design as immutable object so after created, the data can't be changed. (only have getter, no setter)
-* Intersection.java
+* **Intersection.java** - 
 	class that connect vertex and road 
 	contains attribute to determine the shortest path
-* HalifaxMap.java
+* **HalifaxMap.java** - 
 	class that connect all intersections and roads together like graph
 	implement the Dijkstra's algorithm to determine the shortest path
 
