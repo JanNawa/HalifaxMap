@@ -9,7 +9,7 @@ but road need to connect to vertex.
 User can navigate the shortest path from current location to destination.
 This is implemented by using Dijkstra's algorithm to find the shortest path in graph (adjacency list).
 
-## Files and external data
+## Files and External Data
 There are 4 main files:
 * Vertex.java 
 	class that define vertex in (x, y)
@@ -27,7 +27,7 @@ There are 4 main files:
 	class that connect all intersections and roads together like graph
 	implement the Dijkstra's algorithm to determine the shortest path
 
-## Data structures and their relations to each other
+## Data Structures and their Relations to each other
 ### HalifaxMap.java
 * intersections - Map
 The program store vertex and graph in adjacency list using Map implementation.
@@ -69,7 +69,7 @@ Increase readability and easier to change the data structure in the future.
 * Encapsulation --- protect data and don't let object escape/being modified outside of its class (Information Hiding)
 * Using user-defined object to easily compare the object. (e.g. Vertex, Road class)
 
-## Key algorithms and design elements
+## Key Algorithms and Design Elements
 The adjacency list is stored the coordination in bidirectional as undirected graph which
 make the program easier to write and execute but not space friendly as the memory used twice.
 
